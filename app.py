@@ -8,7 +8,7 @@ load_dotenv()
 
 os.environ["GOOGLE_API_KEY"]=os.getenv("GOOGLE_API_KEY")
 
-cm=ChatGoogleGenAI(model="gemini-2.5-pro")
+cm = ChatGoogleGenerativeAI(model="gemini-2.0-flash")
 
 if "coversation" not in st.session_state:
     st.session_state["conversation"]=[]

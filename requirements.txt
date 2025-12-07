@@ -1,4 +1,18 @@
-streamlit
-langchain
-google-generative-ai
-python-dotenv
+streamlit==1.45.1
+python-dotenv==1.0.1
+
+# LangChain core
+langchain==0.3.25
+langchain-core==0.3.13
+langchain-community==0.3.9
+
+# Google Gemini integration for LangChain
+langchain-google-genai==1.0.7
+
+# Official Google Gemini Python SDK
+google-genai==1.53.0
+
+# Optional safe utilities
+requests==2.32.3
+pydantic==2.12.4
+
